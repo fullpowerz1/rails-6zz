@@ -32,13 +32,13 @@
         </tr>
       </table>
 
-      <table>
+      <table id="comments_area">
         <tdody>
           <%= render 'book_comments/bookcommenter', book: @book, bookcomment: @book_comment %>
         </tdody>
       </table>
 
-         <div>
+         <div class="new-comment">
            <%= render 'book_comments/bookform', book: @book %>
          </div>
     </div>
